@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "serve": "json-server --watch db.json"
+    "serve": "json-server --watch db.json",
+    "start": "npm run serve & start http://localhost:3000"
   },
   "keywords": [],
   "author": "",
