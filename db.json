@@ -1,29 +1,24 @@
 {
   "transactions": [
     {
-      "id": "1",
-      "name": "Freela",
-      "amount": 300
-    },
-    {
+      "id": "f444",
       "name": "Salário",
-      "amount": 3200,
-      "id": "3"
+      "amount": 3800
     },
     {
-      "name": "Conta de água",
-      "amount": -60,
-      "id": "4"
+      "id": "4ed1",
+      "name": "Internet",
+      "amount": -110
     },
     {
-      "name": "Conta de luz",
-      "amount": -150,
-      "id": "5"
+      "id": "7649",
+      "name": "Gasolina",
+      "amount": -45
     },
     {
-      "id": "6a00",
-      "name": "asd",
-      "amount": 1000
+      "id": "722d",
+      "name": "Saúde",
+      "amount": -600
     }
   ]
 }

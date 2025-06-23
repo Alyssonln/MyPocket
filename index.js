@@ -37,9 +37,11 @@ function renderTransaction(transaction) {
   const container = createTransactionContainer(transaction.id)
   const title = createTransactionTitle(transaction.name)
   const amount = createTransactionAmount(transaction.amount)
+  const editBtn = createEditTransactionBtn(transaction)
+  const deleteBtn = createDeleteTransactionButton(transaction.id)
 
+  container.append(title, amount, editBtn, deleteBtn)
   document.querySelector('#transactions').append(container)
-  container.append(title, amount)
 }
 
 async function fetchTransactions() {
